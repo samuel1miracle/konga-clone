@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: max-content;
+  }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+  .header img {
+      width: 180px;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
+
+
+
+
+  .login  {
+      text-align: center;
+      background-color: #fff;
+      margin-left: 470px;
+      margin-right: 470px;
+      padding-bottom: 30px;
+      margin-bottom: 1px;
+      padding-top: 20px;
+      margin-top: 40px;
+      width: 400px;
+
+  }
+.orline {
+    margin-top: 30px;
+}
+.sociallogin {
+    margin-top: 20px;
+    margin-bottom: -40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.sociallogin img {
+    width: 60px;
+}
+
+img.googlelogin {
+    margin-bottom: -6px;
+}
+.facebook {
+    margin-left: 30px;
+    width: 130px;
+    border-radius: 4px;
+    padding: 11px;
+    border: 1px solid rgb(37, 162, 211);
+}
+.google {
+    width: 130px;
+    border-radius: 4px;
+    padding: 11px;
+    border: 1px solid rgb(37, 162, 211);
+}
+  .formdiv {
+      text-align: center;
+      font-size: 14px;
+      align-items: center;
+      display: grid;
+      grid-gap: 50px;
+      grid-template-columns: auto;
+      background-color: #fff;
+      margin-left: 470px;
+      margin-right: 470px;
+      padding-bottom: 50px;
+      color: #33b27b;
+      height: 550px;
+      width: 400px;
+  }
+  .formdiv a {
+      text-decoration: none;
+      color: #33b27b;
+  }
+
+
+
+
+
+
+
+
+
+
+  .formdiv [type="email"], [type="password"] {
+      width: 350px;
+      height: 40px;
+      text-align: left;
+  }
+  .formdiv label {
+      text-align: left;
+      float: left;
+      padding: 10px;
+  }
+  .forgot {
+      float: right;
+      margin-left: 260px;
+  }
+  .password {
+      margin-right: 50px;
+      margin-bottom: -18px;
+      margin-left: 15px;
+  }
+  .email {
+      margin-left: 15px;
+  }
+  .formdiv [type="submit"] {
+      width: 350px;
+      height: 45px;
+      background-color: #33b27b;
+      color: #fff;
+      font-size: 25px;
+      margin-top: -80px;
+      cursor: pointer;
+  }
+  .signup {
+      margin-top: -40px;
+      margin-right: 60px;
+      margin-left: 60px;
+      border: 1px solid #33b27b;
+      padding: 15px;
+      align-items: center;
+      text-align: center;cursor: pointer;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:700px) and (max-width:995px) {
+
+}
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    .kongalogo{
+      justify-content: center;
+    }
+    .login  {
+        text-align: center;
+        background-color: #fff;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 30px;
+        margin-bottom: 1px;
+        padding-top: 10px;
+        margin-top: 20px;
+  
+    }
+
+    .formdiv {
+        text-align: center;
+        font-size: 18px;
+        align-items: center;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto;
+        background-color: #fff;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        color: #33b27b;
+        height: 100%;
+    }
+
+    .sociallogin {
+        margin-top: 20px;
+        margin-bottom: -40px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .formdiv [type="email"], [type="password"] {
+        width: 200px;
+        height: 40px;
+    }
+
+ 
+    .formdiv [type="submit"] {
+        width: 200px;
+        height: 45px;
+        background-color: #33b27b;
+        color: #fff;
+        font-size: 27px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .signup {
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        border: 1px solid #33b27b;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+  }
+  .sociallogin {
+    margin-top: 20px;
+    margin-bottom: -40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+.sociallogin img {
+    width: 70px;
+}
+
+img.googlelogin {
+    margin-bottom: -6px;
+}
+.facebook {
+    margin-left: 0px;
+    width: 230px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 11px;
+    border: 1px solid rgb(37, 162, 211);
+}
+.google {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    width: 230px;
+    border-radius: 4px;
+    padding: 11px;
+    border: 1px solid rgb(37, 162, 211);
+}
+
+.forgot {
+    float: none;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.password {
+    margin-bottom: -60px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+}
+ 
+
+
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    .login  {
+        text-align: center;
+        background-color: #fff;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 30px;
+        margin-bottom: 1px;
+        padding-top: 10px;
+        margin-top: 20px;
+  
+    }
+
+    .formdiv {
+        text-align: center;
+        font-size: 18px;
+        align-items: center;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto;
+        background-color: #fff;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        color: #33b27b;
+        height: 550px;
+    }
+
+    .sociallogin {
+        margin-top: 20px;
+        margin-bottom: -40px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .formdiv [type="email"], [type="password"] {
+        width: 300px;
+        height: 40px;
+    }
+
+ 
+    .formdiv [type="submit"] {
+        width: 250px;
+        height: 45px;
+        background-color: #33b27b;
+        color: #fff;
+        font-size: 27px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .signup {
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        border: 1px solid #33b27b;
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+  }
+  .sociallogin {
+    margin-top: 20px;
+    margin-bottom: -40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+}
+.sociallogin img {
+    width: 70px;
+}
+
+img.googlelogin {
+    margin-bottom: -6px;
+}
+.facebook {
+    margin-left: 60px;
+    width: 230px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 11px;
+    border: 1px solid rgb(37, 162, 211);
+}
+.google {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    width: 230px;
+    border-radius: 4px;
+    padding: 11px;
+    border: 1px solid rgb(37, 162, 211);
+}
+
+.forgot {
+    float: right;
+    margin-left: 260px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.password {
+    margin-bottom: -60px;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+}
